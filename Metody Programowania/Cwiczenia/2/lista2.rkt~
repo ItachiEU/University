@@ -1,0 +1,17 @@
+#lang racket
+
+(define (square x)(* x x))
+
+(define (inc x)(+ x 1))
+
+;drugie
+(define (compose f g)
+  (lambda (x) (f (g x))))
+
+;trzecie
+(define (repeated p n)
+  (if (= n 0)
+      identity
+      (compose p
+               (repeated p (- n 1)))))
+;czwarte

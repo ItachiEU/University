@@ -1,0 +1,5 @@
+/home/itachi/Desktop/University/PO/P2/zadanie1/Zadanie1/Zadanie1/obj/x86/Debug/Zadanie1.csprojAssemblyReference.cache
+/home/itachi/Desktop/University/PO/P2/zadanie1/Zadanie1/Zadanie1/bin/Debug/Zadanie1.exe
+/home/itachi/Desktop/University/PO/P2/zadanie1/Zadanie1/Zadanie1/bin/Debug/Zadanie1.pdb
+/home/itachi/Desktop/University/PO/P2/zadanie1/Zadanie1/Zadanie1/obj/x86/Debug/Zadanie1.exe
+/home/itachi/Desktop/University/PO/P2/zadanie1/Zadanie1/Zadanie1/obj/x86/Debug/Zadanie1.pdb

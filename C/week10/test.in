@@ -1,0 +1,16 @@
+pwd
+mkdir home
+cd home
+pwd
+mkdir pwit
+cd pwit
+pwd
+cd ..
+mkdir pwit
+pwd
+cd ..
+mkdir usr
+cd usr
+mkdir bin
+cd bin
+pwd
