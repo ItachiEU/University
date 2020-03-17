@@ -1,3 +1,4 @@
+#probability of winning in poker comparing to hand ranges
 import random
 
 figury = ['Ace', 'King', 'Queen', 'Jack']

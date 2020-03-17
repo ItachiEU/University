@@ -1,3 +1,4 @@
+#Simplified logic puzzles solver (WalkSat algorithm)
 import random
 
 fhandle = open('zad5_input.txt', 'r')

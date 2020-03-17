@@ -1,0 +1,34 @@
+#lang racket
+
+(define (reverse lista)
+  (if (null? lista)
+      null
+      (append (reverse (cdr lista))(list (car lista)))))
+
+(define (reverse-iter lista)
+  (define (iter l1 l-result)
+    (if (null? l1)
+        l-result
+        (iter (cdr l1)(cons (car l1) l-result))))
+  (iter lista null))
+
+(define (insert xs n)
+  (define (insert-pom pre suf)
+    (if (null? suf)
+        (append pre (list n))
+        (if (< n (car suf))
+           (append pre (list n) suf)
+           (insert-pom (append pre (list (car suf))) (cdr suf)))))
+  (insert-pom null xs))
+
+
+(define (insert-sort lista)
+  (define (iter result pom)
+	(if (null? pom)
+    	result
+    	(iter (insert result (car pom)) (cdr pom))))
+  (iter null lista))
+
+
+
+(insert (list 1 2 3 5 6) 4)

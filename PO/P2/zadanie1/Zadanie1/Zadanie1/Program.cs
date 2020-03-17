@@ -9,7 +9,7 @@ namespace Zadanie1
         public IntStream()
         {
             curr_int = 0;
-            limit = (1 << 32) - 1;
+            limit = (1 << 31) - 1;
         }
         public virtual int next()
         {
@@ -75,7 +75,7 @@ namespace Zadanie1
         public RandomStream()
         {
             curr_int = 0;
-            limit = (1 << 32) - 1;
+            limit = (1 << 31) - 1;
             rnd = new Random();
         }
         public override bool eos()
