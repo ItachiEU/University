@@ -1,0 +1,2 @@
+/home/itachi/Desktop/University/PO/P3/zad2/zad2/zad2/bin/Release/zad2.exe
+/home/itachi/Desktop/University/PO/P3/zad2/zad2/zad2/obj/x86/Release/zad2.exe

@@ -1,0 +1,5 @@
+/home/itachi/Desktop/University/PO/P4/zad2/zad2/zad2/bin/Debug/zad2.exe
+/home/itachi/Desktop/University/PO/P4/zad2/zad2/zad2/bin/Debug/zad2.pdb
+/home/itachi/Desktop/University/PO/P4/zad2/zad2/zad2/obj/x86/Debug/zad2.csprojAssemblyReference.cache
+/home/itachi/Desktop/University/PO/P4/zad2/zad2/zad2/obj/x86/Debug/zad2.exe
+/home/itachi/Desktop/University/PO/P4/zad2/zad2/zad2/obj/x86/Debug/zad2.pdb
