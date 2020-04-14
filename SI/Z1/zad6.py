@@ -1,3 +1,5 @@
+#źle zinterpretowałem treść zadania
+
 import random
 import time
 
@@ -6,7 +8,7 @@ def correct(in_use, pos, queen, size):
 		good = True
 		for used in in_use:
 			#tu porownuje nowego hetmana z juz uzywanymi
-			if i == pos[used][1] or (abs(pos[used][0]-queen) == queen and abs(pos[used][1] - i) == i):
+			if i == pos[used][1] or (abs(pos[used][0]-queen) == abs(pos[used][1] - i)):
 				good = False
 				break
 		if good:
@@ -42,7 +44,7 @@ def first_task():
 	for i in range(sample):
 		solved += solve(queens, restart=False)
 		queens = [index for index in range(6)]
-
+	print(solved)
 	print(solved/sample) # przy sample == 1000000 szanse wynosza (kolejne odpalenia) -> 0.500451, 0.500092, 0.500494
 
 #first_task()
@@ -65,4 +67,4 @@ def second_task(): #najwiecej ile udało mi się ułozyc ponizej 5 sekund to 623
 	print(result)
 	print(elapsed)
 
-second_task()
+first_task()
