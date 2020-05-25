@@ -1,0 +1,10 @@
+#lang racket
+
+
+(define (with-labels func xs)
+  (define (labels-iter helpxs xs)
+    (if (null? xs)
+        (reverse helpxs)
+        (labels-iter (cons (cons (func (car xs)) (car xs)) helpxs) (cdr xs))))
+  (labels-iter null xs))
+
