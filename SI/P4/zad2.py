@@ -1,6 +1,9 @@
 import random
 import os
 import sys
+import copy
+import math
+from queue import PriorityQueue
 
 
 class WrongMove(Exception):
@@ -9,6 +12,16 @@ class WrongMove(Exception):
 
 def deepcopy(board):
     return [list(row) for row in board]
+
+
+class Node:
+    def __init__(self):
+        self.mv = None
+        self.s = 1.0
+        self.w = 0.0
+        self.sons = list()
+        self.parent = self
+        self.game = Jungle()
 
 
 class Jungle:
@@ -177,8 +190,8 @@ class Jungle:
 
         x, y = self.dens[oponent]
         if self.board[y][x]:
-            print ('tu')
-            self.draw()
+            #print ('tu')
+            # self.draw()
             self.winner = player
             return True
 
@@ -197,6 +210,8 @@ class Jungle:
             return
         pos1, pos2 = m
         x, y = pos1
+
+        # TUTAJ NIE MOZE ROZPAKOWAC KIEDY JEST NONE !!!
         pl, pc = self.board[y][x]
 
         x2, y2 = pos2
@@ -212,7 +227,224 @@ class Jungle:
         self.board[y][x] = None
 
     def agent_move(self, player):
-        pass
+        ms = self.moves(player)
+        og_player = player
+        best_value = -1e9
+        best_move = None
+        for move in ms:
+            new_game = Jungle()
+            new_game.board = deepcopy(self.board)
+            new_game.pieces = copy.deepcopy(self.pieces)
+            new_game.curplayer = self.curplayer
+            new_game.peace_counter = self.peace_counter
+            new_game.winner = self.winner
+            new_game.do_move(move)
+            #print("before simulation: ", 1-player)
+            value = simulate(new_game, 10, og_player)
+            if value > best_value:
+                best_value = value
+                best_move = move
+
+        return best_move
+
+    def agent_move2(self, player, rounds):
+        ms = self.moves(player)
+        og_player = player
+        best_value = -1e9
+        if rounds < 10:
+            best_value = 1e9
+        best_move = None
+        for move in ms:
+            new_game = Jungle()
+            new_game.board = deepcopy(self.board)
+            new_game.pieces = copy.deepcopy(self.pieces)
+            new_game.curplayer = self.curplayer
+            new_game.peace_counter = self.peace_counter
+            new_game.winner = self.winner
+            new_game.do_move(move)
+            if rounds < 10:
+                value = evaluate(new_game, og_player)
+                if value < best_value:
+                    best_value = value
+                    best_move = move
+                continue
+            #print("before simulation: ", 1-player)
+            value = simulate(new_game, 10, og_player, True)
+            if value > best_value:
+                best_value = value
+                best_move = move
+
+        return best_move
+
+    def heura(self, player):
+        ms = self.moves(player)
+        og_player = player
+
+        best_value = 1e9
+        best_move = None
+        for move in ms:
+            new_game = Jungle()
+            new_game.board = deepcopy(self.board)
+            new_game.pieces = copy.deepcopy(self.pieces)
+            new_game.curplayer = self.curplayer
+            new_game.peace_counter = self.peace_counter
+            new_game.winner = self.winner
+            new_game.do_move(move)
+            value = evaluate(new_game, og_player)
+            if value < best_value:
+                best_value = value
+                best_move = move
+
+        return best_move
+
+    def MCTS(self, og_player, simulations):
+        order = 0
+        player = og_player
+        v = Node()
+        # copying board
+        v.game.board = deepcopy(self.board)
+        v.game.pieces = copy.deepcopy(self.pieces)
+        v.game.curplayer = self.curplayer
+        v.game.peace_counter = self.peace_counter
+        v.game.winner = self.winner
+
+        # creating edges from root
+        for move in self.moves(player):
+            son = Node()
+            son.game.board = deepcopy(self.board)
+            son.game.pieces = copy.deepcopy(self.pieces)
+            son.game.curplayer = self.curplayer
+            son.game.peace_counter = self.peace_counter
+            son.game.winner = self.winner
+            son.game.do_move(move)
+            son.parent = v
+            son.mv = move
+            v.sons.append(son)
+
+        for debug in range(simulations):
+            dead_end = False
+            res = 0
+            # selection
+            while True:
+                if len(v.sons) == 0:
+                    break
+                if v.game.victory(player) or v.game.victory(1-player):
+                    dead_end = True
+                    break
+                q = PriorityQueue()
+                for son in v.sons:
+                    if player == og_player:
+                        q.put(
+                            (-1.0 * (son.w / son.s + 1.4 * math.sqrt(math.log(v.s) / son.s)), order + 1, son))
+                        order += 1
+                    else:
+                        q.put((-1.0*((son.s - son.w)/son.s + 1.4 *
+                                     math.sqrt(math.log(v.s) / son.s)), order + 1, son))
+                        order += 1
+
+                v = q.get()[2]
+                player = 1 - player
+        # expansion
+        if not dead_end:
+            # expand
+            for move in v.game.moves(player):
+                exp = Node()
+                exp.game.board = deepcopy(v.game.board)
+                exp.game.pieces = copy.deepcopy(v.game.pieces)
+                exp.game.curplayer = v.game.curplayer
+                exp.game.peace_counter = v.game.peace_counter
+                exp.game.winner = v.game.winner
+                exp.game.do_move(move)
+                exp.parent = v
+                exp.mv = move
+                v.sons.append(exp)
+
+        # simulation
+        if not dead_end:
+            # simulate
+            son = random.choice(v.sons)
+            player = 1 - player
+            #move = son.game.random_move(player)
+            res = max(simulate(son.game, 100, og_player), res)
+            if res >= 100:
+                res = 1
+            else:
+                res = 0
+        else:
+            res = v.game.winner
+            if res == og_player:
+                res = 1
+            else:
+                res = 0
+
+        # backpropagation
+            while True:
+                # back to start
+                if v.parent == v:
+                    v.s += 1
+                    v.w += res
+                    break
+                v.s += 1
+                v.w += res
+                v = v.parent
+
+        # here we choose our move
+        order = 0
+        q = PriorityQueue()
+        for son in v.sons:
+            #print(son.w / son.s)
+            q.put((-1.0 * (son.w / son.s), order, son))
+            order += 1
+        # print("=====================")
+        return q.get()[2].mv
+
+
+def evaluate(game, player):
+    res = 0
+    for i in range(7, -1, -1):
+        if i in game.pieces[player]:
+            pos = game.pieces[player].get(i, None)
+            res += abs(pos[0] - game.dens[1 - player][0]) + \
+                abs(pos[1] - game.dens[1 - player][1])
+
+    return res
+
+
+def simulate(game, n, og_player):
+    total_score = 0
+
+    for _ in range(n):
+        # COPY GAME HERE
+        new_game = Jungle()
+        new_game.board = deepcopy(game.board)
+        # print (game.board)
+        # print(new_game.board)
+        new_game.pieces = copy.deepcopy(game.pieces)
+        # print(game.pieces)
+        new_game.curplayer = game.curplayer
+        new_game.peace_counter = game.peace_counter
+        new_game.winner = game.winner
+        player = game.curplayer
+        #print("in simulation: ", player)
+
+        while True:
+            m = new_game.random_move(player)
+            # print(m)
+            new_game.do_move(m)
+          #   Game.draw()
+          #   print('==========================')
+            if new_game.victory(player) or new_game.victory(1-player):
+                break
+            player = 1 - player
+
+        r = new_game.winner
+
+        if r == og_player:
+            total_score += 100
+        else:
+            total_score -= 1
+
+    return total_score
 
 
 our_losses = 0
@@ -224,27 +456,39 @@ for i in range(1, games+1):
     Game = Jungle()
     r = None
     while True:
+        counter = 0
         if not player:
             if AGENT == 1:
-                m = Game.random_move(player)
-            else:
+                #m = Game.random_move(player)
+                #m = Game.agent_move2(player, counter)
                 m = Game.agent_move(player)
+            else:
+                #m = Game.agent_move(player)
+                m = Game.agent_move2(player, counter)
+                #m = Game.heura(player)
+                #m = Game.MCTS(player, 10000)
         else:
             if AGENT == 0:
-                m = Game.random_move(player)
-            else:
+                #m = Game.random_move(player)
+                #m = Game.agent_move2(player, counter)
                 m = Game.agent_move(player)
+            else:
+                #m = Game.agent_move(player)
+                m = Game.agent_move2(player, counter)
+                #m = Game.heura(player)
+                #m = Game.MCTS(player, 10000)
 
         Game.do_move(m)
-      #   Game.draw()
-      #   print('==========================')
+        #   Game.draw()
+        #   print('==========================')
         if Game.victory(player) or Game.victory(1-player):
             break
         player = 1 - player
+        counter += 1
 
-    if Game.winner == 0:
+    if Game.winner != AGENT:
         our_losses += 1
-    if i % 100 == 0:
+    if i % 10 == 0:
         # B.draw()
         print(f"Games played: {i} Games lost: {our_losses}")
 
