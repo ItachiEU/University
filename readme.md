@@ -13,9 +13,9 @@ Some of my University Asignments and more ;)
   * Linear Algebra 1R
   * Logic for Computer Scientists
   
-  ## 2n Semester
+  ## 2nd Semester
   * Advanced Calculus II
   * Algebra
   * Artificial Intelligence (AI)
   * Object Oriented Programming (PO)
-  * Programming Methodology (MP)
+  * Programming Methodology (Metody Programowania)
