@@ -7,7 +7,7 @@ Some of my University Asignments and more ;)
 ### COURSEWORK
   ## 1st Semester
   * Advanced Calculus I
-  * Computing for Computer Scientists (PWI)
+  * Computing for Computer Scientists
   * Efficient Implementation of Algorithms (MIA)
   * Introduction to Programming in C (C)
   * Linear Algebra 1R
