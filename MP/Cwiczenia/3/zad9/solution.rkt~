@@ -1,0 +1,24 @@
+#lang racket
+
+;Praca grupowa
+;Filip Komorowski, Piotr Piesiak, Maurycy Borkowski, Marcin Badowski
+
+(provide partition quicksort)
+
+(define (partition n xs)
+  (define (pom lista small big)
+	(if (null? lista)
+    	(cons small big)
+    	(if (<= (car lista) n)
+        	(pom (cdr lista) (append small (list (car lista))) big)
+        	(pom (cdr lista) small (append big (list (car lista)))))))
+  (pom xs null null))
+
+(define (quicksort l)
+  (define helper
+    (if (null? l)
+        l
+        (partition (car l) (cdr l))))
+  (if (null? helper)
+  	helper
+        (append (append (quicksort (car helper)) (list (car l))) (quicksort (cdr helper)))))
