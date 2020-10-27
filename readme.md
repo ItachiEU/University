@@ -15,7 +15,7 @@
   * [Programming Methodology](MP)
   
   ## 3rd Semester
-  * Numerical Analysis
+  * [Numerical Analysis](ANL)
   * Descrete Mathematics
   * [Natural Language Processing](NLP)
   * [Advanced Techniques In C++ And STL](CPP17)
