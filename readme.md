@@ -19,7 +19,7 @@ Some of my University Asignments and more ;)
   ## 3rd Semester
   * Numerical Analysis
   * Descrete Mathematics
-  * Natural Language Processing
-  * Advanced Techniques In C++ And STL
-  * Java
-  * Selected Elements Of Objective Programming Practices
+  * [Natural Language Processing](NLP)
+  * [Advanced Techniques In C++ And STL](CPP17)
+  * [Java](Java)
+  * [Selected Elements Of Objective Programming Practices](WEPPO)
