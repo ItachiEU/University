@@ -14,4 +14,12 @@ Some of my University Asignments and more ;)
   * Algebra
   * [Artificial Intelligence](AI)
   * [Object Oriented Programming](PO)
-  * [Programming Methodology](Metody Programowania)
+  * [Programming Methodology](MP)
+  
+  ## 3rd Semester
+  * Numerical Analysis
+  * Descrete Mathematics
+  * Natural Language Processing
+  * Advanced Techniques In C++ And STL
+  * Java
+  * Selected Elements Of Objective Programming Practices
