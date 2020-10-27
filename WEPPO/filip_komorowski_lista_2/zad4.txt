@@ -1,0 +1,5 @@
+Wyjaśnić różnice między operatorami typeof i instanceof
+
+typeof zwraca nam typ bytu na, którym operujemy
+
+a returnof zwraca true jesli objekt jest stworzyny z podanego konstruktora, a false w przeciwnym przypadku
