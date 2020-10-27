@@ -1,5 +1,3 @@
-Some of my University Asignments and more ;)
-
 ### COURSEWORK
   ## 1st Semester
   * Advanced Calculus I
