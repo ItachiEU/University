@@ -1,5 +1,3 @@
-Some of my University Asignments and more ;)
-
 ### COURSEWORK
   ## 1st Semester
   * Advanced Calculus I
@@ -17,9 +15,9 @@ Some of my University Asignments and more ;)
   * [Programming Methodology](MP)
   
   ## 3rd Semester
-  * Numerical Analysis
+  * [Numerical Analysis](ANL)
   * Descrete Mathematics
-  * Natural Language Processing
-  * Advanced Techniques In C++ And STL
-  * Java
-  * Selected Elements Of Objective Programming Practices
+  * [Natural Language Processing](NLP)
+  * [Advanced Techniques In C++ And STL](CPP17)
+  * [Java](Java)
+  * [Selected Elements Of Objective Programming Practices](WEPPO)
