@@ -34,6 +34,19 @@ template <>
 struct harmoniczny<1> : ratio<1, 1>
 {
 };
+
+template <int N>
+auto harmonic()
+{
+   if constexpr (N == 1)
+   {
+      return ratio<1, 1>();
+   }
+   else
+   {
+      return ratio_add<decltype(harmonic<N - 1>()), ratio<1, N>>();
+   }
+}
 //Zadanie 4
 template <
     typename From,
@@ -77,58 +90,106 @@ void print_matrix(vector<vector<double>> &M)
       cout << endl;
    }
 }
-void matrix_fill(vector<vector<double>> &M)
+random_device rd;
+mt19937 mt(rd());
+const int n1 = 10, n2 = 100, n3 = 1000;
+// array<array<double, n1>, n1> M1;
+// array<array<double, n2>, n2> M2;
+// array<array<double, n3>, n3> M3;
+
+template <int N>
+struct Matrix
 {
-   random_device rd;
-   mt19937 mt(rd());
+   double t[N * N];
+   double *operator[](const int i) { return t + i * N; };
+};
+
+Matrix<n1> M1;
+Matrix<n2> M2;
+Matrix<n3> M3;
+
+void matrix_fill()
+{
    uniform_real_distribution<double> dist(0.5, 2.0);
-   int n = M.size();
-   for (int i = 0; i < n; i++)
-      for (int j = 0; j < n; j++)
-         M[i][j] = dist(mt);
+   for (int i = 0; i < n1; i++)
+      for (int j = 0; j < n1; j++)
+         M1[i][j] = dist(mt);
+   for (int i = 0; i < n2; i++)
+      for (int j = 0; j < n2; j++)
+         M2[i][j] = dist(mt);
+   for (int i = 0; i < n3; i++)
+      for (int j = 0; j < n3; j++)
+         M3[i][j] = dist(mt);
 }
-void square(vector<vector<double>> &M)
+void squareM1()
 {
-   int n = M.size();
-   vector<vector<double>> ans(n, vector<double>(n, 0));
-   for (int i = 0; i < n; i++)
+   Matrix<n1> temp;
+   // array<array<double, n1>, n1> temp = {};
+   for (int i = 0; i < n1; i++)
    {
-      for (int j = 0; j < n; j++)
+      for (int j = 0; j < n1; j++)
       {
-         for (int k = 0; k < n; k++)
-            ans[i][j] += M[i][k] * M[k][j];
+         for (int k = 0; k < n1; k++)
+            temp[i][j] += M1[i][k] * M1[k][j];
       }
    }
-   M = ans;
+   M1 = temp;
+}
+void squareM2()
+{
+   Matrix<n2> temp;
+   // array<array<double, n2>, n2> temp = {};
+   for (int i = 0; i < n2; i++)
+   {
+      for (int j = 0; j < n2; j++)
+      {
+         for (int k = 0; k < n2; k++)
+            temp[i][j] += M2[i][k] * M2[k][j];
+      }
+   }
+   M2 = temp;
+}
+
+void squareM3()
+{
+   Matrix<n3> temp;
+   // array<array<double, n3>, n3> temp = {};
+   for (int i = 0; i < n3; i++)
+   {
+      for (int j = 0; j < n3; j++)
+      {
+         for (int k = 0; k < n3; k++)
+            temp[i][j] += M3[i][k] * M3[k][j];
+      }
+   }
+   M3 = temp;
 }
 
 void zad5()
 {
-   int n1 = 10, n2 = 100, n3 = 1000;
-   vector<vector<double>> M1(n1, vector<double>(n1));
-   vector<vector<double>> M2(n2, vector<double>(n2));
-   vector<vector<double>> M3(n3, vector<double>(n3));
-   matrix_fill(M1);
-   matrix_fill(M2);
-   matrix_fill(M3);
+   // vector<vector<double>> M1(n1, vector<double>(n1));
+   // vector<vector<double>> M2(n2, vector<double>(n2));
+   // vector<vector<double>> M3(n3, vector<double>(n3));
+   matrix_fill();
 
    chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
    for (int i = 0; i < 100; i++)
-      square(M1);
+      squareM1();
    chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
    chrono::duration<double> time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
    cout << "100x100 Time " << time_span.count() / 100 << " seconds.\n\n";
 
    t1 = chrono::high_resolution_clock::now();
    for (int i = 0; i < 100; i++)
-      square(M2);
+      squareM2();
    t2 = chrono::high_resolution_clock::now();
    time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
    cout << "1000x1000 Time " << time_span.count() / 100 << " seconds.\n\n";
 
    t1 = chrono::high_resolution_clock::now();
-   square(M3);
+   squareM3();
    t2 = chrono::high_resolution_clock::now();
+
    time_span = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
    cout << "10000x10000 Time " << time_span.count() << " seconds.\n\n";
 }
