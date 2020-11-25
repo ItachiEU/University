@@ -4,8 +4,8 @@ import structures.OrderedList;
 public class Test {
    public static void main(String args[]) {
       OrderedList<Integer> lista = new OrderedList<Integer>(1);
-      lista.insert(2);
       lista.insert(3);
+      lista.insert(2);
       System.out.println(lista);
 
       System.out.println(lista.min());
