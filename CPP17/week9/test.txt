@@ -1,0 +1,1484 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <title>Ryszard Szwarc</title>
+    <meta name="Template" content="C:\PROGRAM FILES\MICROSOFT
+      OFFICE\OFFICE\html.dot">
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+  </head>
+  <body style="color: rgb(0, 0, 0); background-color: rgb(230, 229,
+    189);" link="#993300" vlink="#800080" alink="#000099">
+    <h3 style="background-color: transparent;" align="center"><a
+        name="top"><span style="font-family: Tahoma;"> Website of
+          Ryszard Szwarc <span style="font-style: italic;"></span> </span></a></h3>
+    <p><em style="font-weight: bold;"><a style="font-family: Courier
+          New,Courier,monospace;" name="top"></a></em></p>
+    <div style="text-align: center; font-weight: bold; color: rgb(255,
+      102, 0);">
+      <div style="text-align: left;"><a style="font-family: Courier
+          New,Courier,monospace;" href="pdf/poscig.pdf"><span
+            style="color: rgb(153, 0, 0);"></span></a></div>
+    </div>
+    <hr>
+    <table style="text-align: left; margin-left: auto; margin-right:
+      auto; background-color: rgb(153, 0, 0); width: 903px; height:
+      156px;" cellspacing="2" cellpadding="2" border="1">
+      <tbody>
+        <tr>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; font-family: Helvetica,Arial,sans-serif;"
+            valign="undefined"><a href="anfun3.html">Analiza
+              funkcjonalna 3</a></td>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; font-family: Helvetica,Arial,sans-serif;"
+            valign="undefined"><a href="anfun.html">Analiza funkcjonalna
+              2</a></td>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; font-family: Helvetica,Arial,sans-serif;"
+            valign="undefined"><a href="anfun1.html">Analiza
+              funkcjonalna 1</a></td>
+        </tr>
+        <tr style="color: rgb(255, 255, 255);">
+          <td style="width: 306px; text-align: center; color: rgb(255,
+            0, 0); font-family: Helvetica,Arial,sans-serif;
+            background-color: rgb(255, 255, 255);"><a
+              href="fourier.html">Szeregi Fouriera</a></td>
+          <td style="width: 304px; text-align: center; color: rgb(255,
+            0, 0); font-family: Helvetica,Arial,sans-serif;
+            background-color: rgb(255, 255, 255);"><a
+              href="http://www.math.uni.wroc.pl/%7Eszwarc/odczyty.html">Odczyty</a></td>
+          <td style="width: 320px; text-align: center; color: rgb(255,
+            0, 0); font-family: Helvetica,Arial,sans-serif;
+            background-color: rgb(255, 255, 255);"><a
+              href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/momentw.pdf">Wielomiany
+ortogonalne
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              i problem momentów</a></td>
+        </tr>
+        <tr>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; height: 38px; font-family:
+            Helvetica,Arial,sans-serif;"><a
+              href="http://www.math.uni.wroc.pl/%7Eszwarc/analizaA3.html"><span
+                style="color: rgb(153, 51, 0);">Analiza 3<br>
+              </span></a></td>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; height: 38px; font-family:
+            Helvetica,Arial,sans-serif;"><a href="analizaA2.html">Analiza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              2</a><br>
+          </td>
+          <td style="background-color: rgb(255, 255, 255); text-align:
+            center; font-family: Helvetica,Arial,sans-serif; height:
+            38px;"><a href="lp.html"><span style="text-decoration:
+                underline;">Programowanie matematyczne</span></a><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top; background-color: white;
+            text-align: center; font-family:
+            Helvetica,Arial,sans-serif;"><a href="komb.html"><span
+                style="color: rgb(153, 51, 0);">Kombinatoryka</span></a><br>
+            <a
+              href="http://www.math.uni.wroc.pl/%7Eszwarc/analizaA3.html"><span
+                style="color: rgb(153, 51, 0);"></span></a></td>
+          <td style="vertical-align: top; background-color: white;
+            text-align: center; font-family:
+            Helvetica,Arial,sans-serif;"><a href="ISIM1.html"><span
+                style="color: rgb(153, 51, 0);">ISIM i Analiza I i II</span></a><br>
+          </td>
+          <td style="vertical-align: top; background-color: white;
+            text-align: center; font-family:
+            Helvetica,Arial,sans-serif;"><a href="jaja.html"><span
+                style="color: rgb(153, 51, 0);"> W oparach absurdu</span></a><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top; background-color: white;
+            text-align: center; font-family:
+            Helvetica,Arial,sans-serif;"><a href="sport.html"><span
+                style="color: rgb(153, 51, 0);">Sport i inne</span></a><br>
+          </td>
+          <td style="vertical-align: top; background-color: white;
+            font-family: Helvetica,Arial,sans-serif; text-align:
+            center;"><a href="zesp.html"><span style="color: rgb(153,
+                51, 0);">Funkcje analityczne</span></a><br>
+          </td>
+          <td style="vertical-align: top; background-color: white;
+            font-family: Helvetica,Arial,sans-serif; text-align:
+            center;"><a href="lubachow.html"><span style="color:
+                rgb(140, 70, 0);">Warsztaty w Lubachowie</span></a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h3 style="text-align: center; font-family: Tahoma;">Research</h3>
+    <ol style="font-weight: bold; font-family: Arial;">
+      <li><font size="+1">Orthogonal polynomials</font></li>
+    </ol>
+    <table style="background-color: rgb(153, 51, 0); width: 904px;
+      height: 70px; text-align: left; margin-left: auto; margin-right:
+      auto;" cellspacing="2" cellpadding="2" border="1">
+      <tbody>
+        <tr>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><a href="index.html#linear">Nonnegative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              linearization</a> </td>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><a href="index.html#connect">Nonnegative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              connection</a></td>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><a href="index.html#growth">Pointwise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              estimates</a></td>
+        </tr>
+        <tr>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><a href="index.html#chains">Chain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              sequences</a></td>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><a href="index.html#turan">Turán
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              determinants</a></td>
+          <td style="text-align: center; color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255); font-family:
+            Helvetica,Arial,sans-serif;"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ol start="2">
+      <ol type="i">
+      </ol>
+    </ol>
+    <ol style="font-weight: bold; font-family: Arial;" start="2">
+      <li><font style="color: rgb(255, 0, 0);" size="+1"><a
+            href="#discrete">Harmonic analysis of discrete groups</a><span
+            style="text-decoration: underline;"></span></font></li>
+      <li><font style="color: rgb(255, 0, 0);" size="+1"><a
+            href="#integral">Integral inequalities</a></font></li>
+      <li><font style="color: rgb(255, 0, 0);" size="+1"><a
+            href="#kaczmarz">Kaczmarz algorithm</a></font></li>
+      <li><font style="color: rgb(255, 0, 0);" size="+1"><a
+            href="#strictly">Strictly positive definite functions</a></font></li>
+      <li><font style="color: rgb(255, 0, 0);" size="+1"><a
+            href="#other">Other</a><br>
+        </font></li>
+    </ol>
+    <ol start="2">
+      <hr>
+      <address><a
+href="http://fakty.interia.pl/news/cbs-zatrzymalo-ryszarda-szwarca-jednego-z-szefow,56637">Ryszard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Szwarc</a> <br>
+        <a href="http://www.math.uni.wroc.pl/">Institute of Mathematics</a>,
+        Wrocław University<br>
+        pl. Grunwaldzki 2/4, 50-384 Wrocław, Poland <br>
+        Fax +48 71 375 7429, e-mail Ryszard.Szwarc<img src="adr.gif"
+          width="93" height="12"><br>
+        <a href="https://orcid.org/0000-0002-5403-7621">ORCID</a><br>
+      </address>
+      <hr>
+      <h3><span style="font-family: Arial;">List of publications</span></h3>
+      <strong></strong>
+      <p style="font-family: Arial;"><strong>&nbsp;1(i). <a
+            name="linear">Nonnegative linearization of orthogonal
+            polynomials<br>
+          </a></strong></p>
+      <ol start="1">
+        <li style="font-family: Times New Roman,Times,serif;">Strong
+          nonnegative linearization of orthogonal polynomials, "Theory
+          and Applications of Special Functions. A Volume Dedicated to
+          Mizan Rahman" (eds. M. E. H. Ismail and E. Koelink),
+          Developments in Mathematics Vol. 13, Kluwer Acad. Publ. 2005,
+          461-477.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/strong.pdf">
+            pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Orthogonal
+          polynomials and Banach algebras, "Inzell Lectures on
+          Orthogonal Polynomials,", W. zu Castell, F. Filbir, B. Forster
+          (eds.), Advances in the Theory of Special Functions and
+          Orthogonal Polynomials Nova Science Publishers, vol. 2 (2005),
+          103-139.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/inzell.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/inzell.pdf">
+            pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthors
+          F. Filbir, R. Lasser) Hypergroups of compact type, <i>Journal
+            of Computational and Applied Mathematics</i>, <b>178</b>
+          (2005), 205-214.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/flsz.ps"> </a><a
+href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/jcam2005.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthors
+          F. Filbir, R. Lasser) Reiter's condition P_1 and approximate
+          identities for hypergroups, <i>Monatshefte für Mathematik</i><b>
+            143</b> (2004), 189-203. <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/reiter.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">A
+          necessary and sufficient condition for nonnegative
+          linearization of orthogonal polynomials, <i>Constructive
+            Approximation</i> <b> 19</b> (2003), 565-573.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/new.pdf">
+            pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          W. Młotkowski) Nonnegative linearization of polynomials
+          orthogonal with respect to discrete measures, <i>Constructive
+            Approximation</i> <b>17</b> (2001), 413-429.&nbsp; <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/q3.pdf">
+            pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Nonnegative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          linearization and quadratic transformation of Askey-Wilson
+          polynomials, <i>Canadian Mathematical Bulletin</i> <b>39</b>
+          (1996), 241-249.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/askey-wi.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Nonnegative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          linearization and <i>q</i>-ultraspherical polynomials, <i>Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            and Applications of Analysis</i> <b>2</b> (1995).
+          399-407.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/maa.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Wielomiany
+          ortogonalne i dyskretne zagadnienie brzegowe, (in Polish),
+          Proceedings of the XIII Annual Meeting of Polish
+          Mathematicians, Jachranka 1994, PTM, 181-187.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/ptm.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Nonnegative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          linearization of orthogonal polynomials, <i>Colloquium
+            Mathematicum</i> <b>69</b> (1995), 309-316.&nbsp;<a
+            href="pdf/collmath95.pdf"> pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Convolution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          structures and Haar matrices, <i>Journal of Functional
+            Analysis</i> <b>113</b> (1993), 19-35.&nbsp;<a
+            href="ps/convm.pdf" name="monatshefte"> pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;"><a
+            name="monatshefte">Linearization and connection coefficients
+            of orthogonal polynomials,</a> <i>Monatshefte für
+            Mathematik</i> <b>113</b> (1992), 319-329.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/lincon.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Convolution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          structures associated with orthogonal polynomials, <i>Journal
+            of Mathematical Analysis and Applications</i> <b>170</b>
+          (1992), 158-170.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/haar.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Orthogonal
+          polynomials and a discrete boundary value problem II, <i>SIAM
+            Journal on Mathematical Analysis</i> <b>23</b> (1992),
+          965-969.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/orth2.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Orthogonal
+          polynomials and a discrete boundary value problem I, <i>SIAM
+            Journal on Mathematical Analysis</i> <b>23</b> (1992),
+          959-964.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/orth1.pdf">
+            pdf. </a></li>
+        <hr> <strong></strong>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; color: black; font-family:
+      sans-serif;">
+      <p><strong>1(ii). <a name="connect">Nonnegative connection of
+            orthogonal polynomials</a></strong></p>
+    </div>
+    <ol start="2">
+      <ol start="1">
+        <span style="font-family: Arial;"><span style="font-weight:
+            bold;"></span></span>
+        <li style="font-family: Times New Roman,Times,serif;" value="16">Connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          coefficients of orthogonal polynomials with an application to
+          Legendre polynomials, in Applications of hypergroups and
+          Related Measures Algebras, (ed. A. L. Schwartz et. al.),
+          Seattle 1993, <i>Contemporary Mathematics</i> <b>183</b>
+          (1995), 341- 346.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/leg.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/leg.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Connection
+          coefficients of orthogonal polynomials, <i>Canadian
+            Mathematical Bulletin</i> <b>35</b> (1992), 548-556.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/connect.pdf">
+            pdf. </a></li>
+        <blockquote><a href="#monatshefte">click here and see also the
+            paper at the top of the screen</a></blockquote>
+        <hr> <strong></strong>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; font-family: sans-serif;">
+      <h4><strong>1(iii). <a name="growth">Pointwise estimates of
+            orthogonal polynomials</a></strong></h4>
+    </div>
+    <ol start="2">
+      <ol start="18">
+        <span style="font-family: Arial;"><span style="font-weight:
+            bold;"></span></span>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) Closable Hankel operators and&nbsp; moment problems,
+          <a href="pdf/besz7-new.pdf"> pdf</a><br>
+        </li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          E. A. van Doorn) On a property of random walk polynomials
+          involving Christoffel functions, <i>Journal of Mathematical
+            Analysis and Applications </i><b>477 </b>(1) (2019),&nbsp;
+          <span style="color: rgb(46, 46, 46); font-family: NexusSans,
+            Arial, Helvetica, &quot;Lucida Sans Unicode&quot;,
+            &quot;Microsoft Sans Serif&quot;, &quot;Segoe UI
+            Symbol&quot;, STIXGeneral, &quot;Cambria Math&quot;,
+            &quot;Arial Unicode MS&quot;, sans-serif; font-size: 14px;
+            font-style: normal; font-variant-ligatures: normal;
+            font-variant-caps: normal; font-weight: 400; letter-spacing:
+            normal; orphans: 2; text-align: center; text-indent: 0px;
+            text-transform: none; white-space: normal; widows: 2;
+            word-spacing: 0px; -webkit-text-stroke-width: 0px;
+            text-decoration-style: initial; text-decoration-color:
+            initial; display: inline !important; float: none;"><span></span>85-103</span>.&nbsp;<a
+            href="https://arxiv.org/pdf/1903.00054.pdf"> pdf.</a><br>
+        </li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) Inverse of infinite Hankel moment matrices <span
+            style="color: rgb(0, 0, 0); font-family: &quot;Times New
+            Roman&quot;; font-size: medium; font-style: normal;
+            font-weight: 400; letter-spacing: normal; orphans: 2;
+            text-align: start; text-indent: 0px; text-transform: none;
+            white-space: normal; widows: 2; word-spacing: 0px; display:
+            inline ! important; float: none;">SIGMA<span>&nbsp;</span></span><b
+            style="color: rgb(0, 0, 0); font-family: &quot;Times New
+            Roman&quot;; font-size: medium; font-style: normal;
+            letter-spacing: normal; orphans: 2; text-align: start;
+            text-indent: 0px; text-transform: none; white-space: normal;
+            widows: 2; word-spacing: 0px;">14</b><span style="color:
+            rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;;
+            font-size: medium; font-style: normal; font-weight: 400;
+            letter-spacing: normal; orphans: 2; text-align: start;
+            text-indent: 0px; text-transform: none; white-space: normal;
+            widows: 2; word-spacing: 0px; display: inline ! important;
+            float: none;"><span>&nbsp;</span>(2018), 109. <a
+              href="https://www.emis.de/journals/SIGMA/2018/109/">https://www.emis.de/journals/SIGMA/2018/109/</a></span><span
+            style="text-decoration: underline;"></span> </li>
+        <li style="font-family: Times New Roman,Times,serif;">Inhomogeneous
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Jacobi matrices on trees <span style="font-style: italic;">Constructive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Approxiamtion</span> <span style="font-weight: bold;">48 </span>(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          (2018), 183&#8211;199..<a href="pdf/Jacobi-final.pdf"> pdf</a><br>
+        </li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) <span class="title">Symmetric moment problems and a
+            conjecture of Valent, <span style="font-style: italic;">Matematiceskii
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Sbornik </span></span><span style="font-weight: bold;">208</span>
+          (2017), <span style="text-decoration: underline;"></span>28&#8211;53.<a
+            href="https://arxiv.org/pdf/1509.06540">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) A determinant characterization of moment sequences
+          with finitely many mass-points, <span style="font-style:
+            italic;">Linear and Multilinear Algebra </span><span
+            style="font-weight: bold;">63</span> (2015), 1568-1576. <a
+href="../../../../home/rysiek/Bie%C5%BC%C4%85ce/berg/berg-szwarc.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) The order of indeterminate moment problems, <span
+            style="font-style: italic;">Advances in Mathematics<span
+              style="font-weight: bold;"> </span></span><span
+            style="font-style: italic;"></span><span style="font-weight:
+            bold;">250</span> (2014),&nbsp; 105-143.&nbsp; <a
+            href="pdf/order1.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) The smallest eigenvalue of Hankel matrices, <span
+            style="font-style: italic;">Constructive Approximation </span><span
+            style="font-weight: bold;">34</span> (2011),&nbsp; 107-133.
+          <span style="color: rgb(51, 51, 51); font-size: 10px;
+            font-style: normal; font-variant: normal; font-weight:
+            normal; letter-spacing: normal; line-height: normal;
+            orphans: 2; text-indent: 0px; text-transform: none;
+            white-space: normal; widows: 2; word-spacing: 0px;
+            background-color: rgb(232, 232, 232); display: inline !
+            important; float: none;"></span><a href="pdf/besz2.pdf">pdf</a><br>
+          <span style="text-decoration: underline;"><span
+              style="text-decoration: underline;"><span
+                style="text-decoration: underline;"></span></span></span>
+        </li>
+        <li style="font-family: Times New Roman,Times,serif;">coauthor
+          A. Kazun), Jacobi matrices on trees,&nbsp; <i>Colloquium
+            Mathematicum </i><span style="font-weight: bold;">118 </span>(2010),
+465-497.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a href="pdf/jacobi_matrices_on_trees.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          J. Obermaier) Orthogonal polynomials of discrete variable and
+          boundedness of Dirichlet kernel, <i> Constructive
+            Approximation </i><span style="font-weight: bold;">27</span>
+          (2008), 1-13.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/discrete7.ps">
+          </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/discrete7.pdf">pdf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          J. Obermaier) Nonnegative linearization for little <i>q</i>-Laguerre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          polynomials and Faber basis, <i>Journal of Computational and
+            Applied Mathematics,</i> <b>199</b> (2007), 89-94.&nbsp; <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/irsee.pdf">
+            pdf. </a> </li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          J. Obermaier) Polynomial bases for continuous function spaces,
+          in <span style="font-style: italic;">Trends and Applications
+            in Constructive Approximation</span> (Eds.) M.G. de Bruin,
+          D.H.&nbsp; Mache,&nbsp; J. Szabados, International Series of
+          Numerical Mathematics Vol. 151, 195-205,&nbsp; 2005 Birkh&#227;user
+          Verlag Basel.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/josef.pdf">
+            pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Absolute
+          continuity of certain unbounded Jacobi matrices, Advanced
+          Problems in Constructive Approximation, (Eds.) M. D. Buhmann
+          and D. H. Mache, International Series of Numerical Mathematics
+          Vol. <b>142</b> (2003), 255-262.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/jacobi1.ps">
+          </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/jacobi1.pdf">pdf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthors
+          F. Filbir, R. Girgensohn, A. Saxena, A. I. Singh) Simultaneous
+          preservation of orthogonality of polynomials by linear
+          operators arising from dilation of orthogonal polynomial
+          systems, <i>Journal of Computational Analysis and
+            Applications </i><b>2 </b>(2000), 177-213.&nbsp; <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/simull.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          M.O. Gebuhrer) On symmetry problem for discrete polynomial
+          hypergroups <i>Proceedings of the American Mathematical
+            Society, </i><b>127</b> (1999), 1705-1709.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/symetry.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">A
+          counterexample to subexponential growth of orthogonal
+          polynomials, <i>Constructive Approximation</i> <b>11</b>
+          (1995), 381-389.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/contr.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/contr.pdf">pdf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Uniform
+          subexponential growth of orthogonal polynomials, <i>Journal
+            of Approximation Theory</i> <b>81</b> (1995),
+          296-302.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/subexp.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/uniform.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">A lower
+          bound for orthogonal polynomials with an application to
+          polynomial hypergroups, <i>Journal of Approximation Theory</i>
+          <b>81</b> (1995), 145-150.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/growth.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/lower.pdf">pdf.</a></li>
+        <a href="#chain">click here and see also the paper at the top of
+          the screen</a><br>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; font-family: sans-serif;"><strong>1(iv).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a name="chains">Chain sequences</a></strong></div>
+    <ol start="2">
+      <ol start="36">
+        <li style="font-family: Times New Roman,Times,serif;">Sharp
+          estimates for Jacobi matrices and chain sequences, II, <i>Journal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            of Approximation Theory</i>, <b>125</b> (2003),
+          295-302.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/szwarc.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Sharp
+          estimates for Jacobi matrices and chain sequences, <i>Journal
+            of Approximation Theory,</i> <b>118</b> (2002),
+          94-105.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/sharp.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Chain
+          sequences, orthogonal polynomials and Jacobi matrices, <i>Journal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            of Approximation Theory,</i> <b>92</b> (1998), 59-73.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/chain.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;"><a
+            name="chain">Chain sequences </a>and compact perturbations
+          of orthogonal polynomials, <i>Mathematische Zeitschrift</i> <b>217</b>
+          (1994), 57-71.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/matz.pdf">
+            pdf.</a></li>
+        <ol start="31">
+        </ol>
+      </ol>
+      <ol start="2">
+        <ol start="32">
+          <hr> <strong style="font-family: Arial;"> </strong><strong
+            style="font-family: Arial;"></strong>
+        </ol>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px;"><strong><strong style="font-family:
+          Arial;">1(v). <a name="turan">Turán </a>determinants</strong></strong></div>
+    <ol start="2">
+      <ol start="2">
+        <ol start="32">
+          <strong style="font-family: Arial;"></strong><strong
+            style="font-family: Arial;"> </strong>
+        </ol>
+      </ol>
+      <ol start="40">
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          C. Berg) Bounds on&nbsp; Turán determinants, <span
+            style="font-style: italic;">&nbsp;</span><i>Journal of
+            Approximation Theory </i><span style="font-weight: bold;">161</span><span
+            style="font-style: italic;"> </span>(2009), 127&#8211;141.&nbsp;<span
+            style="font-style: italic;"> </span><a href="pdf/art.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Positivity
+          of Turán's determinants for orthogonal polynomials, in
+          Harmonic Analysis and Hypergroups (K.A. Ross et al., ed.)
+          Delhi 1995, Birkhauser, Boston-Basel-Berlin, 1998,
+          165-182.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/turan.pdf">pdf.</a><br>
+        </li>
+        <ol start="35">
+        </ol>
+      </ol>
+      <ol start="2">
+        <ol start="35">
+          <hr> <strong></strong>
+        </ol>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; font-family: sans-serif;"><strong>2.
+        <a
+href="https://en.wikipedia.org/wiki/Uniformly_bounded_representation#Free_group_on_two_generators"
+          name="discrete">Harmonic analysis of discrete groups</a></strong></div>
+    <ol start="2">
+      <ol start="42">
+        <li style="font-family: Times New Roman,Times,serif;">(coauthors
+          U. Haagerup, T. Steenstrup) &nbsp;Schur Multipliers and
+          Spherical Functions on Homogeneous Trees, <span
+            style="font-style: italic;">International Journal of
+            Mathematics, </span><span style="font-weight: bold;">21</span>
+          (2010), 1337-1382.&nbsp;<a href="pdf/troels.pdf"> pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          T. Pytlik)&nbsp;Weak type radial convolution operators on free
+          group,<i> Studia Mathematica</i><b> 186</b> (2008), 77-86.<a
+            href="pdf/interpolation.pdf"> </a><a
+            href="pdf/interpolation.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Tadek
+          Pytlik in my memories, <i>Colloquium Mathematicum </i><span
+            style="font-weight: bold;">108</span> (2007), 1-6.&nbsp;<a
+            href="pdf/tadek.pdf"> pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          M. Bożejko) Algebraic length and Poincaré series on reflection
+          groups with applications to representation theory, Asymptotic
+          Combinatorics with Applications to Mathematical Physics, A. M.
+          Vershik (Ed.), Lecture Notes in Mathematics <b>1815</b>
+          (2003), 201-221.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/bozejko.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Structure
+          of geodesics in the Cayley graph of infinite Coxeter groups, <i>Colloquium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Mathematicum</i> <b> 95 </b> (2003), 79-90.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/newcox.ps"> </a><a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/coxet.pdf">pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Norm
+          estimates of discrete Schrödinger operators, <i>Colloquium
+            Mathematicum </i><b>76</b> (1998), 153-160.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/harper.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">The ratio
+          and generating function of cogrowth coefficients of finitely
+          generated groups, <i>Studia Mathematica</i><b> 131</b>
+          (1998), 89-94.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/cogrowth.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthors
+          A. M. Mantero, T. Pytlik and A. Zappa) Equivalence of analytic
+          continuations of the principal series of representations for
+          the free group, <i>Annali di Matematica Pura ed Applicata</i>
+          <b>165</b> (1993), 23-28.<a href="pdf/SO_RS.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Groups
+          acting on trees and approximation properties of the Fourier
+          algebra, <i> Journal of Functional Analysis</i> <b> 95</b>
+          (1991), 320-343.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/groupacting.pdf">
+            pdf.</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Banach
+          algebras associated with the spherical representations of the
+          free group, <i>Pacific Journal of Mathematics</i> <b>143</b>
+          (1990), 201-207. <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/pacific.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">A short
+          proof of the Grigorchuk-Cohen cogrowth theorem, <i>Proceedings
+of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            the American Mathematical Society</i> <b>106</b> (1989),
+          663-665. <a href="pdf/cogrowth.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Matrix
+          coefficients of irreducible representations of free products
+          of groups, <i>Studia Mathematica</i> <b>94</b> (1989),
+          179-185.&nbsp;<a href="pdf/studia89.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">An
+          analytic series of irreducible representations of the free
+          group, <i>Annales de l'Institut Fourier de l'Université
+            Grenoble</i> <b>38</b> (1988), 87-110. <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/fourier.pdf">pdf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">(coauthor
+          T. Pytlik) An analytic family of uniformly bounded
+          representations of free groups, <i>Acta Mathematica</i> <b>157</b>
+          (1986), 287-309.<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/acta.pdf">
+            pdf. </a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Convolution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          operators of weak type (p,p) which are not of strong type
+          (p,p), <i>Proceedings of the American Mathematical Society</i>
+          <b>89</b> (1983), 184-185. <a href="pdf/p-p.pdf">pdf</a></li>
+        <li style="font-family: Times New Roman,Times,serif;">Convolution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          operators of weak type (2,2) which are not of strong type
+          (2,2), <i>Proceedings of the American Mathematical Society</i>
+          <b>87</b> (1983), 695-698. <a href="pdf/two-two.pdf">pdf</a></li>
+        <ol start="37">
+          <hr> <strong></strong>
+        </ol>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; font-family: sans-serif;"><strong>3.
+        <a name="integral">Integral inequalities</a></strong></div>
+    <ol start="2">
+      <ol start="58">
+        <ol start="37">
+          <ol start="53">
+            <ol start="53">
+            </ol>
+          </ol>
+        </ol>
+        <li style="font-family: Times New Roman,Times,serif;">Nonlinear
+          integral inequalities of the Volterra type, <i>Mathematical
+            Proceedings of Cambridge Philosophical Society </i><b>111 </b>(1992),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          599-608.<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/calka2.pdf">
+            pdf. </a></li>
+        <ol style="font-family: Times New Roman,Times,serif;" start="37">
+          <ol start="53">
+            <ol start="53">
+            </ol>
+          </ol>
+        </ol>
+        <li style="font-family: Times New Roman,Times,serif;">Attraction
+          principle for nonlinear integral operators of the Volterra
+          type, <i>Journal of Mathematical Analysis and Applications </i><b>170</b>
+          (1992), 449-456.&nbsp; <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/calka1.pdf">
+            pdf.</a></li>
+        <ol start="37">
+          <ol style="margin-left: 40px;" start="53">
+          </ol>
+        </ol>
+        <ol start="54">
+          <hr> <strong></strong><span style="font-family: Arial;"><span
+              style="font-weight: bold;"><br>
+            </span></span>
+        </ol>
+      </ol>
+    </ol>
+    <div style="margin-left: 40px; font-family: sans-serif;"><strong>4.
+        <a name="kaczmarz">Kaczmarz algorithm</a></strong></div>
+    <ol start="2">
+      <ol style="font-family: Times New Roman,Times,serif;" start="60">
+        <li>Convergence of weighted averages of relaxed projections, <span
+            style="font-style: italic;">Linear and Multilinear Algebra<span
+              style="font-weight: bold;"> </span></span><span
+            style="font-weight: bold;">66</span> (2018), 1991-2002. <a
+            href="pdf/projection-revised.pdf">pdf</a><br>
+        </li>
+        <li>(coauthor G. Świderski) Kaczmarz algorithm with relaxation
+          in Hilbert space, <i>Studia Mathematica </i><span
+            style="font-weight: bold;">216</span> (2013), 237-243. <a
+            href="pdf/kaczmarz_relax.pdf">pdf.</a></li>
+        <li>Kaczmarz algorithm in Hilbert space and tight frames, <i>Applied
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            and Computational Harmonic Analysis &nbsp;</i><span
+            style="font-weight: bold;">22</span> (2007), 382-385. <a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/ps/tight.ps">&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </a><a href="http://www.math.uni.wroc.pl/%7Eszwarc/tight.html">pdf.</a></li>
+        <li>(coauthor R. Haller) Kaczmarz algorithm in Hilbert space, <i>Studia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Mathematica&nbsp;</i> <b>169.2</b> (2005), 123-132.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/rainis.pdf">pdf.</a></li>
+      </ol>
+      <ol start="55">
+      </ol>
+      <ol start="55">
+      </ol>
+      <ol start="55" style="margin-left: 40px;">
+      </ol>
+    </ol>
+    <div style="margin-left: 40px;"><strong style="font-family:
+        sans-serif;">5.<a name="strictly"> Strictly positive definite
+          functions</a></strong><strong style="font-family: sans-serif;"><a
+          name="strictly"></a></strong><br>
+    </div>
+    <ol start="2">
+      <ol start="58">
+      </ol>
+      <ol style="font-family: Times New Roman,Times,serif;" start="64">
+        <li>(coauthors W. zu Castell, F. Filbir) Strictly positive
+          definite functions in&nbsp;<img
+            src="http://www.mathwords.com/r/r_assets/real_number_symbol.gif"
+            width="17" height="17" align="middle"><sup>d</sup>, <i>Journal
+of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Approximation Theory </i><b>137 </b> (2005),
+          277-280.&nbsp;<a
+            href="http://www.math.uni.wroc.pl/%7Eszwarc/pdf/spd.pdf">pdf.</a></li>
+      </ol>
+      <ol start="58" style="margin-left: 40px;">
+      </ol>
+    </ol>
+    <div style="font-family: sans-serif; margin-left: 40px;"><strong>6.<a
+          name="other"> Other</a></strong></div>
+    <ol start="2">
+      <ol>
+        <ol>
+        </ol>
+      </ol>
+      <ol start="59">
+      </ol>
+      <ol style="font-family: Times New Roman,Times,serif;" start="65">
+        <li>(coauthor W. W. Koczkodaj)&nbsp; On axiomatization of
+          inconsistency indicators in pairwise comparisons, <span
+            style="font-style: italic;">Fundamenta Informaticae</span> <span
+            style="font-weight: bold;">132</span> (2014), 485&#8211;500. <a
+            href="pdf/waldek.pdf">pdf</a></li>
+        <li>(coauthors R. Khalil, B. Merdas) Erratum to the Khalil&nbsp;
+          paper "Multipliers of Schatten Classes", <span
+            style="font-style: italic;">Journal of Functional Analysis</span>
+          <span style="font-weight: bold;">63</span> (1985), 137-138. <a
+            href="ps/khalil.pdf">pdf</a></li>
+        <li>(coauthor K. Topolski) Limit theorems for stochastic
+          dynamical system arising in Ising model analysis <i>
+            Probability and Mathematical Statistics </i><span
+            style="font-weight: bold;">28.2 </span>(2008), 257-270. <a
+            href="pdf/topol.pdf">pdf</a></li>
+      </ol>
+      <ol start="59">
+      </ol>
+      <ol start="59">
+      </ol>
+      <ol start="59" style="margin-left: 40px;">
+      </ol>
+      <ol>
+      </ol>
+      <ol start="2">
+      </ol>
+      <hr> <a href="#top">top of page</a>
+    </ol>
+    <dir>
+      <dir> </dir>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      &nbsp;<a target="_top" href="http://stat.4u.pl/?szwarc2"><img
+          alt="" src="http://adstat.4u.pl/s4u.gif" border="0"></a>
+      <script language="JavaScript" type="text/javascript">
+<!--
+function s4upl() { return "&amp;r=er";}
+//-->
+</script>
+      <script language="JavaScript" type="text/javascript" src="http://adstat.4u.pl/s.js?szwarc2"></script>
+      <script language="JavaScript" type="text/javascript">
+<!--
+s4uext=s4upl();
+document.write('<img alt="" src="http://stat.4u.pl/cgi-bin/sn.cgi?i=szwarc2&p=0'+s4uext+'" width="1" height="1">')
+//-->
+</script><noscript><img alt="" src="http://stat.4u.pl/cgi-bin/sn.cgi?i=szwarc2&p=0&r=ns" width="1" height="1"></noscript>
+      <!-- stat.4u.pl KoNiEc --></dir>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <br>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-2">
+    <br>
+  </body>
+</html>
