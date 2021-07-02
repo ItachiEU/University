@@ -21,3 +21,9 @@
   * [Advanced Techniques In C++ And STL](CPP17)
   * [Java](Java)
   * [Selected Elements Of Objective Programming Practices](WEPPO)
+
+## 4th Semester
+* [Databases](BD)
+* [Algorithms and Data Structures](AISD)
+* [Probability and Statistics](RPiS)
+* Economics
