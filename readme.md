@@ -29,7 +29,7 @@
 * Economics
 
 ## 5th Semester
-* [AI for Games](AI)
+* [AI for Games](AI4GAMES)
 * [Evolutionary Algorithms](EA)
 * Human-Computer Interaction
 * History of philosophy
