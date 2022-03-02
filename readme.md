@@ -27,3 +27,9 @@
 * [Algorithms and Data Structures](AISD)
 * [Probability and Statistics](RPiS)
 * Economics
+
+## 5th Semester
+* [AI for Games](AI)
+* [Evolutionary Algorithms](EA)
+* Human-Computer Interaction
+* History of philosophy
