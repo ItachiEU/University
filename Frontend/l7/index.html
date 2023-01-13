@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="info">
+          <span class="tasks_info" id="tasks_info_span">Remaining tasks: </span>
+        </div>
+        <button class="clear-btn" onclick="clearFunc()">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
