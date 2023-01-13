@@ -43,5 +43,5 @@
 ## 7th Semester
 * [Frontend Engineering](Frontend)
 * [Advanced Python](Python)
-* [Machine Learning](ML)
+* [Machine Learning](https://github.com/ItachiEU/University/tree/master/ML/assignments/assignments)
 * Seminar: Cyber Security and Data Protection
