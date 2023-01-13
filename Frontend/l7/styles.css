@@ -1,0 +1,140 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+}
+
+.wrapper {
+   max-width: 500px;
+   padding: 28px 0 30px;
+   margin: 137px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   display: flex;
+}
+
+.task-input {
+   height: 52px;
+   padding: 0 25px;
+   position: relative;
+}
+
+.task-input input {
+   height: 100%;
+   width: 100%;
+   outline: none;
+   font-size: 18px;
+   border-radius: 5px;
+   padding: 0 20px 0 53px;
+   border: 1px solid #999;
+}
+
+.task-input input:focus, .task-input input:hover {
+   border: 2px solid #3C87FF;
+}
+
+.task-input input::placeholder {
+   color: #bfbfbf;
+}  
+
+.controls, li {
+   display: flex;
+   justify-content: space-between;
+}
+
+.controls {
+   padding: 18px 25px;
+   border-bottom: 1px solid #ccc;
+   display: flex;
+   justify-content: space-between;
+}
+
+.info span {
+   margin: 0 8px;
+   font-size: 17px;
+   color: #444444;
+}
+
+.controls .clear-btn {
+   border: none;
+   opacity: 0.8;
+   color: #fff;
+   font-size: 13px;
+   padding: 10px;
+   margin-top: -5px;
+   cursor: pointer;
+   border-radius: 4px;
+   background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+}
+
+.clear-btn:hover {
+   background: linear-gradient(135deg, #a4cded 0%, #77d8e2 100%);
+}
+
+.task-box {
+   margin-top: 20px;
+   margin-right: 5px;
+   padding: 0 20px 10px 25px;
+}
+
+.task-box .task {
+   list-style: none;
+   font-size: 17px;
+   color: white;
+   margin-bottom: 18px;
+   padding-bottom: 16px;
+   display: flex;
+   padding-top: 25px;
+   border-bottom: 1px solid #ccc;
+}
+
+
+.task-box .task button {
+   background-color: #0e657d;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   padding: 10px;
+   margin-top: -10px;
+}
+
+.task-box .task button:hover {
+   background-color: #40b5d6;
+}
+
+.task-box .task div:last-child {
+   margin-right: 10px;
+}
+
+.task-box .done {
+   background: #148850;
+   opacity: 0.7;
+}
+
+.task-box .done button{
+   opacity: 0.4;
+}
+
+.task-box li{
+   background: linear-gradient(135deg, #185c90 0%, #273d8c 100%);
+}
+
+.task-box .task:last-child {
+   margin-bottom: 0;
+   border-bottom: 0;
+}
+
+.task label p {
+   margin-left: 12px;
+   word-wrap: break-word;
+}
