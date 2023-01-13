@@ -33,3 +33,15 @@
 * [Evolutionary Algorithms](EA)
 * Human-Computer Interaction
 * History of philosophy
+
+## 6th Semester
+* [Copmuter Networks](SK)
+* Computer Systems
+* [Linux system administration](Linux)
+* [Modern Web Development](https://github.com/ItachiEU/WebTechnologies)
+
+## 7th Semester
+* [Frontend Engineering](Frontend)
+* [Advanced Python](Python)
+* [Machine Learning](ML)
+* Seminar: Cyber Security and Data Protection
